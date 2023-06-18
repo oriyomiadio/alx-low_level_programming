@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: always 0 (success)
+ */
+int main(void) {
+	int letter[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i = 0
+
+	while (letter[i] != '\0')
+	{
+		putchar(letter[i]);
+		i++;
+	};
+
+	return (0);
+}
