@@ -3,7 +3,7 @@
 /**
  * main - Prints all possible diffferent combination of two digits.
  *
- * ReturnL Always 0 (sucess)
+ * Return: Always 0 (sucess)
  */
 int main(void)
 {
@@ -19,7 +19,7 @@ int main(void)
 
 			if (firstnum != 8 || secondnum != 9)
 			{
-				putchar(';');
+				putchar(',');
 				putchar(' ');
 			}
 		}
